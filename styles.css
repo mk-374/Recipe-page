@@ -1,0 +1,127 @@
+body {
+    background-color: hsl(30, 54%, 90%);
+    border:0;
+    margin: 0;
+    padding:0;
+}
+span {
+    font-weight: bold;
+}
+.container {
+    background-color: hsl(0, 0%, 100%);
+}
+.content, ul, ol {
+    padding: 22px;
+}
+img {
+    width:100%;
+}
+.pinkbg {
+    background-color: hsl(330, 100%, 98%);
+    padding-bottom: 20px;
+    padding-top: 5px;
+    padding-left: 25px;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+p, ul, ol, table{
+    font-size: 16px;
+    color: hsl(30, 10%, 34%);
+}
+ol {       
+    padding-left: 20px;
+    line-height: 1.5;
+}
+ol li::marker, ul li::marker {
+    font-weight: bold;
+}
+li {
+    padding-left: 20px;
+    padding-bottom: 12px;
+}
+#rosefont{
+    color: hsl(332, 51%, 32%);
+}
+h1 {
+   color: hsl(24, 5%, 18%); 
+}
+h2, ol li::marker, ul li::marker {
+    color: hsl(14, 45%, 36%);
+}
+h1.young-serif-regular, h2.young-serif-regular {
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+p.outfit-out, ul.outfit-out, ol.outfit-out, table.outfit-out {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+h3.outfit-out {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+table, tr, td {
+    border-bottom: 1px solid hsl(26, 7%, 79%);
+    border-collapse: collapse;
+    padding: 10px;
+}
+td:nth-child(even) {
+    color: hsl(14, 45%, 36%);
+    font-weight: 700;
+}
+td:nth-child(odd) {
+    padding-left: 20px;
+}
+table {
+    margin-bottom: 10px;
+}
+td{
+    padding-right: 60px;
+}
+
+@media (min-width: 375px) and (max-width: 1440px) {
+    ol {
+        padding-left: 22px;
+    }
+    p {
+        margin-top: 0;
+    }
+    h3 {
+        margin-top: 0;
+    }
+    img {
+        width: 93%;
+        margin: 20px;
+        border-radius: 10px;
+        margin-bottom: 0;
+    }
+    .container {
+        width: 70%;
+        padding: 15px;
+        margin: auto;
+        margin-top: 80px;
+        border-radius: 10px;
+        margin-bottom: 80px;
+    }
+    .content{
+        padding: 0 20px;
+    }
+    .pinkbg {
+        padding: 20px;
+        padding-left: 25px;
+        margin-bottom: 30px;
+    }
+    table, tr, td {
+        padding-left: 25px;
+        padding: 15px;
+    }
+    td{
+        padding-right: 250px;
+    }
+}
