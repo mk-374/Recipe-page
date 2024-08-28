@@ -4,8 +4,8 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 **Links**
 
-- Solution URL: [Solution URL](https://your-solution-url.com)
-- Live Site URL: [Live site URL](https://your-live-site-url.com)
+- Solution URL: [Solution URL](https://github.com/mk-374/Recipe-page)
+- Live Site URL: [Live site URL](https://mk-374.github.io/Recipe-page/)
 
 **My process**
 I started with developing the desktop or the generic view of the website first, starting from the background to container and elements within it. It was only after adding the colors and fonts did I start working on the mobile view of the website in order for it to appear responsive.
